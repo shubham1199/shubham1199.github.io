@@ -1,0 +1,201 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.header {
+	width: 100%;
+	height: 30px;
+	color: white;
+	background-color: #4FC7C6;
+}
+
+.header_left {
+	float:left;
+	padding-top: 5px;
+	padding-left: 30px;
+	/*background-color: red;*/
+	height: 25px;
+	width: 50%;
+}
+
+.header_right {
+	float:right;
+	/*background-color: blue;*/
+	padding-top: 5px;
+	padding-right: 30px;
+	height:25px;
+	width: 45%;
+	text-align: right;
+
+}
+.logo_container {
+	display:block;
+}
+.button {
+    background-color: #FF6375;
+    border: 1px;
+    color: white;
+    padding: 11px 16px;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 4px;
+    float: left;
+}
+
+
+.button:hover {
+	background-color: #FF495F;
+	box-shadow: 0px 8px 6px -7px #ccc;
+}
+
+.row {
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.button_container {
+	width: 20%;
+	float: left;
+	padding-left: 30px;
+}
+.logo_container {
+	width: 60%;
+	float: left;
+	padding-top: 3px;
+}
+.login_container {
+	width: 15%;
+	float: left;
+	height: 100px;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+ul {
+    list-style-type: none;
+    float:left;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    box-shadow: 0px 8px 6px -7px #ccc;
+}
+
+li {
+    float: left;
+    padding-left: 30px;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	color: #4FC7C6;
+	border: #111;
+}
+
+.nav {
+	font-weight: 600;
+	background-color: white;
+}
+
+.main_body {
+	float:left;
+	height: 1000px;
+	width: 100%;
+	padding-top: 10px;
+}
+.main_row {
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 100%
+}
+
+.row_2 {
+	height: 370px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.ad_container_1 {
+	float: left;
+	width: 50%;
+
+}
+.ad_container_2 {
+	float:right;
+	width: 48.5%;
+}
+
+.row_3 {
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 110px;
+}
+
+.card {
+	width: 19%;
+	height: 100%;
+	float:left;
+	margin-left: 13px;
+}
+
+.card_first {
+	width: 19%;
+	height: 100%;
+	float:left;
+	
+}
+
+.category {
+	height: 137px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 8px 6px -7px #ccc;
+	
+}
+
+button {
+	height: 40px;
+	border-radius: 3px;
+	padding: 7px;
+}
+
+.display_item {
+	width: 100%;
+	height: 390px;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.item {
+	padding: 10px;
+	width: 260px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+	border-width: 1px;
+	border-color: #e0e0e0;
+	border-style: solid;
+}
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 5px; 
+}
+
+
